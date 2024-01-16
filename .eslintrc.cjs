@@ -6,6 +6,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
+    "prettier"
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
@@ -16,5 +17,10 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
+    "no-console": "warn",
+    "curly": ["error", "all"],
+    "import/prefer-default-export": "off",
+    "react/jsx-no-useless-fragment": "error",
+    "no-unused-expressions": "error"
   },
 };
