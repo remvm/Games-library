@@ -1,0 +1,10 @@
+.navigation_bar {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+}
