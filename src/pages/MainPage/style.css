@@ -1,0 +1,21 @@
+img {
+    width: 150px;
+    height: 100px;
+}
+
+.game_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game_item {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.game_item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
